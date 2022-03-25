@@ -69,4 +69,8 @@ L.geoJSON(data, {
 		  // We set the style for each circleMarker using our styleInfo function.
 		style: styleInfo
 		}).addTo(map);
+<<<<<<< HEAD
 	});
+=======
+	});
+>>>>>>> 9149bbefd5ef34136606ba6d63c20fffc8243702

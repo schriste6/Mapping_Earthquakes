@@ -29,12 +29,38 @@ let map = L.map('mapid', {
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
 
+<<<<<<< HEAD
 // Accessing the Toronto neighborhoods GeoJSON URL.
 let earthquake_GeoJSON_data = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
+=======
+<<<<<<<< HEAD:Mapping_GeoJSON_Linestrings/static/js/logic.js
+// Accessing the Toronto airline routes GeoJSON URL.
+let torontoData = "https://raw.githubusercontent.com/schriste6/Mapping_Earthquakes/main/torontoRoutes.json";
+========
+// Accessing the Toronto neighborhoods GeoJSON URL.
+let earthquake_GeoJSON_data = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
+>>>>>>>> 9149bbefd5ef34136606ba6d63c20fffc8243702:Earthquakes_past7days/static/js/logicStep1.js
+>>>>>>> 9149bbefd5ef34136606ba6d63c20fffc8243702
 
 // Retrieve the earthquake GeoJSON data.
 d3.json(earthquake_GeoJSON_data).then(function(data) {
   // Creating a GeoJSON layer with the retrieved data.
+<<<<<<< HEAD
   L.geoJson(data).addTo(map);
 });
 
+=======
+<<<<<<<< HEAD:Mapping_GeoJSON_Linestrings/static/js/logic.js
+  L.geoJson(data,{
+	  style: myStyle,
+	  onEachFeature: function(feature,layer){
+		  layer.bindPopup("<h3>Airline: "+ feature.properties.airline+"</h3><hr><h3> Destination:"
+		  + feature.properties.dst + "</h3>");
+	  }
+  }).addTo(map);
+});
+========
+  L.geoJson(data).addTo(map);
+});
+>>>>>>>> 9149bbefd5ef34136606ba6d63c20fffc8243702:Earthquakes_past7days/static/js/logicStep1.js
+>>>>>>> 9149bbefd5ef34136606ba6d63c20fffc8243702

@@ -94,4 +94,8 @@ d3.json(earthquake_GeoJSON_data).then(function(data) {
 	}
 	
   }).addTo(map);
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 9149bbefd5ef34136606ba6d63c20fffc8243702
