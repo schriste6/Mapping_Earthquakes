@@ -1,4 +1,4 @@
-# Mapping Earthquakes and Techtonic Plates  
+# Mapping Earthquakes and Tectonic Plates  
 
 ## Using JavaScript, Leaflet.js, and geoJSON data, a interactive features delivers three map styles and three data overlays.  Each map style interacts with one or all of the data overlays.  
 
