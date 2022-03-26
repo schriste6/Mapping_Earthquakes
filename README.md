@@ -6,3 +6,6 @@
 - All Earthquakes:  https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
 - Major Earthquakes of magnitude >4.5: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson
 - Tectonic Plates: https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
+
+Mapping Earthquates - Streets Map  
+  ![](Mapping_Earthquakes_Streets.png)
